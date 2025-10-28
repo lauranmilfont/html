@@ -1,0 +1,144 @@
+
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight: bold;
+    color: #1e3e8e;
+}
+
+label{
+    display: block;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#lista_palavras{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+#lista_palavras li{
+    background: #2562eb;
+    color: #ccc;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#lista_palavras li:hover{
+    background: #1d4ed8;
+}
+
+#addRwvisao{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#addRevision:hover{
+    background: #1d4ed8;
+}
+
+.gerarBtn{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background: #10b981;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gerarBtn:hover{
+    background: #059669;
+}
+
+#jsonOutput{
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.revisao{
+    background: #f1f5f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.revisao label{
+    font-size: 0.9rem;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.copy_btn{
+    background: #64748b;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-sarif;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.copy_btn:hover{
+    background: #475569;
+}
+
+.botoes-container{
+    display: flex;
+    gap: 10px;
+}
+
+.pdfBtn{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pdfBtn:hover{
+    background: #dc2626                               ;
+}
